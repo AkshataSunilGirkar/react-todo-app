@@ -1,0 +1,63 @@
+.App {
+  width: 80vw;
+  margin: 24px auto auto;
+}
+.inputContainer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+input {
+  padding: 8px;
+  border-radius: 8px;
+}
+.error {
+  height: 32px;
+  color: #f00;
+  font-size: 14px;
+}
+.todos {
+  margin-top: 16px;
+}
+.todoItem {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+button {
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+.btnContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.deleteForm,
+.editForm {
+  width: 40%;
+  margin: auto;
+  background: gray;
+  padding: 20px;
+  border-radius: 4px;
+  display: grid;
+}
+
+.formTitle {
+  font-size: 1.4rem;
+}
+.delete {
+  background-color: #f00;
+}
+.update {
+  background-color: #0f0;
+}
+.draggable {
+  background-color: #cc9b9b;
+}
+.dragover {
+  background-color: #997676;
+}
