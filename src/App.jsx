@@ -148,7 +148,6 @@ const App = () => {
                 <button className="editTodo" onClick={() => onEditTodoClick(todo.id)}>
                   Edit
                 </button>
-                <div>Drag</div>
               </div>
             );
           })

@@ -20,7 +20,7 @@ input {
 }
 .todoItem {
   display: grid;
-  grid-template-columns: 1fr auto auto auto;
+  grid-template-columns: 1fr auto auto;
   gap: 8px;
   padding: 4px 8px;
   border-radius: 4px;
@@ -44,6 +44,10 @@ button {
   padding: 20px;
   border-radius: 4px;
   display: grid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .formTitle {
